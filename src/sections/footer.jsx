@@ -86,49 +86,123 @@ const FooterSection = () => {
           Social Media
         </div>
         <div className="pr-6">
-          <img src={FacebookIcon} alt="facebook" />
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={FacebookIcon} alt="facebook" />
+          </a>
         </div>
         <div className="pr-6">
-          <img src={TwitterIcon} alt="twitter" />
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={TwitterIcon} alt="twitter" />
+          </a>
         </div>
         <div className="pr-6">
-          <img src={LinkedlnIcon} alt="linkedln" />
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={LinkedlnIcon} alt="linkedln" />
+          </a>
         </div>
         <div className="pr-6">
-          <img src={YoutubeIcon} alt="youtube" />
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={YoutubeIcon} alt="youtube" />
+          </a>
         </div>
         <div className="pr-6">
-          <img src={InstagramIcon} alt="instagram" />
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={InstagramIcon} alt="instagram" />
+          </a>
         </div>
         <div className="pr-6">
-          <img src={GooglePlusIcon} alt="google plus" />
+          <a
+            href="https://plus.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={GooglePlusIcon} alt="google plus" />
+          </a>
         </div>
         <div className="pr-6">
-          <img src={PinterestIcon} alt="pinterest" />
+          <a
+            href="https://www.pinterest.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={PinterestIcon} alt="pinterest" />
+          </a>
         </div>
         <div className="pr-6">
-          <img src={RssIcon} alt="rss" />
+          <a
+            href="https://www.rss.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={RssIcon} alt="rss" />
+          </a>
         </div>
       </div>
+
       <div className="flex justify-between" style={{ paddingTop: 100 }}>
         <div className="flex row-auto">
-          <div className="text-whiteColor  font-gilroy text-base font-medium pr-11">
-            ABOUT US
+          <div className="pr-11">
+            <a
+              href="#"
+              className="text-whiteColor font-gilroy text-base font-medium"
+            >
+              ABOUT US
+            </a>
           </div>
-          <div className="text-whiteColor font-gilroy text-base font-medium pr-11">
-            CONTACT US
+          <div className="pr-11">
+            <a
+              href="#"
+              className="text-whiteColor font-gilroy text-base font-medium"
+            >
+              CONTACT US
+            </a>
           </div>
-          <div className="text-whiteColor font-gilroy text-base font-medium pr-11">
-            HELP
+          <div className="pr-11">
+            <a
+              href="#"
+              className="text-whiteColor font-gilroy text-base font-medium"
+            >
+              HELP
+            </a>
           </div>
-          <div className="text-whiteColor font-gilroy text-base font-medium pr-11">
-            PRIVACY POLICY
+          <div className="pr-11">
+            <a
+              href="#"
+              className="text-whiteColor font-gilroy text-base font-medium"
+            >
+              PRIVACY POLICY
+            </a>
           </div>
-          <div className="text-whiteColor font-gilroy text-base font-medium pr-11">
-            DISCLAIMER
+          <div className="pr-11">
+            <a
+              href="#"
+              className="text-whiteColor font-gilroy text-base font-medium"
+            >
+              DISCLAIMER
+            </a>
           </div>
         </div>
-        <div className="flex row-auto ">
+        <div className="flex row-auto">
           <img src={CopyrightIcon} alt="" />
           <div className="text-whiteColor font-gilroy font-medium pl-3">
             2024 IMPROOVE. All right reserved.

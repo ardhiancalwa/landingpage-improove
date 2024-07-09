@@ -34,7 +34,7 @@ const LandingPage = () => {
       {showScrollToTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-5 right-5 bg-secondaryColor text-whiteColor p-4 rounded-full shadow-lg hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-600"
+          className="fixed bottom-5 right-5 bg-secondaryColor text-whiteColor p-4 rounded-full shadow-lg hover:bg-yellow-600 focus:outline-none focus:ring-4 focus:ring-secondaryColor focus:ring-opacity-30"
         >
           ↑
         </button>
