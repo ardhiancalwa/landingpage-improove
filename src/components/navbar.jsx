@@ -83,7 +83,7 @@ const NavbarSection = () => {
               <li key={section}>
                 <a
                   href={`#${section}`}
-                  className={`text-whiteColor hover:text-whiteColor hover:text-opacity-80 active:text-whiteColor focus:text-primaryColor transition-colors duration-200 ease-in-out ${
+                  className={`hover-underline text-whiteColor hover:text-whiteColor hover:font-extrabold active:text-whiteColor focus:text-primaryColor transition-colors duration-200 ease-in-out ${
                     currentSection === section ? "text-secondaryColor" : ""
                   }`}
                 >

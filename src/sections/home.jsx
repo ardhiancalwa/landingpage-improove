@@ -1,6 +1,6 @@
 import React from "react";
 
-import NavbarSection from "./navbar";
+import NavbarSection from "../components/navbar";
 
 import backgroundHero from "../assets/backgrounds/hero_work.png";
 import backgroundPattern from "../assets/backgrounds/pattern1.png";

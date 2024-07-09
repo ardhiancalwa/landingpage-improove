@@ -24,5 +24,7 @@ module.exports = {
       gilroy: ['Gilroy', 'sans-serif'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 };

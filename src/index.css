@@ -17,3 +17,17 @@ body {
 html {
   scroll-behavior: smooth;
 } 
+
+.hover-underline::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background:#FEBB0E;
+  transition: width 0.3s;
+}
+
+.hover-underline:hover::after {
+  width: 100%;
+}
+
