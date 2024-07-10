@@ -84,11 +84,14 @@ const HomeSection = () => {
             </div>
             <div
               className="pt-2 text-whiteColor font-gilroy font-extrabold"
-              style={{ fontSize: "54px" }}
+              style={{ fontSize: "54px", lineHeight: 1.2 }}
             >
-              Increase Capabilty, Get Job Easily
+              Increase Capability, Get Job Easily
             </div>
-            <div className="text-whiteColor pt-5" style={{ fontSize: "18px" }}>
+            <div
+              className="text-whiteColor pt-5"
+              style={{ fontSize: "18px", lineHeight: 1.6 }}
+            >
               Ready to take a definitive step towards your dream career? With
               Improve, improving your skills and landing your ideal job has
               never been easier. Improve your skills and explore the job market

@@ -11,15 +11,15 @@ const WhyImprooveSection = () => {
       style={{
         paddingLeft: "354px",
         paddingRight: "354px",
-        height:"771px",
+        height: "771px",
       }}
     >
       <div className="text-blackColor font-medium" style={{ fontSize: "26px" }}>
         Why Improove?
       </div>
       <div
-        className="font-gilroy font-extrabold text-center pt-6"
-        style={{ fontSize: "54px" }}
+        className="font-gilroy text-center pt-6"
+        style={{ fontSize: "54px", fontWeight: "bold", lineHeight: 1.2 }}
       >
         We help you prepare with{" "}
         <span className="text-primaryColor">AI-powered tools</span> and{" "}
@@ -28,7 +28,7 @@ const WhyImprooveSection = () => {
       </div>
       <div
         className="text-center text-greyColor font-medium pt-12"
-        style={{ fontSize: "20px" }}
+        style={{ fontSize: "20px", lineHeight: 1.6 }}
       >
         Unlock your full potential with Improove! Our AI-powered tools and real
         project simulations give you the hands-on experience you need to be
@@ -41,11 +41,17 @@ const WhyImprooveSection = () => {
             <img className="" src={downloadIcon} alt="download" />
           </div>
           <div className="flex flex-col pl-5">
-            <div className="font-space-grotesk font-bold" style={{fontSize:'40px'}}>
-            100K+
+            <div
+              className="font-space-grotesk font-bold"
+              style={{ fontSize: "40px" }}
+            >
+              100K+
             </div>
-            <div className="font-gilroy font-medium " style={{fontSize:'20px'}}>
-            Download
+            <div
+              className="font-gilroy font-medium "
+              style={{ fontSize: "20px" }}
+            >
+              Download
             </div>
           </div>
         </div>
@@ -54,11 +60,17 @@ const WhyImprooveSection = () => {
             <img className="" src={magisterIcon} alt="download" />
           </div>
           <div className="flex flex-col pl-5">
-            <div className="font-space-grotesk font-bold" style={{fontSize:'40px'}}>
-            75K+
+            <div
+              className="font-space-grotesk font-bold"
+              style={{ fontSize: "40px" }}
+            >
+              75K+
             </div>
-            <div className="font-gilroy font-medium " style={{fontSize:'20px'}}>
-            Get a job
+            <div
+              className="font-gilroy font-medium "
+              style={{ fontSize: "20px" }}
+            >
+              Get a job
             </div>
           </div>
         </div>

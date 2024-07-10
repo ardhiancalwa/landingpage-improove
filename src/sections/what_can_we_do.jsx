@@ -20,8 +20,8 @@ const WhatCanWeDoSection = () => {
             How we help you get career-ready
           </div>
           <div
-            className="text-blackColor font-gilroy font-extrabold pt-3"
-            style={{ fontSize: 46 }}
+            className="text-blackColor font-gilroy pt-3"
+            style={{ fontSize: 46, fontWeight: "bold", lineHeight: 1.2 }}
           >
             We offer <span className="text-primaryColor">amazing features</span>{" "}
             designed for your career readiness
@@ -35,7 +35,7 @@ const WhatCanWeDoSection = () => {
         </div>
         <div
           className="flex row-auto"
-          style={{ paddingLeft: 88, paddingRight: 88, paddingTop:75 }}
+          style={{ paddingLeft: 88, paddingRight: 88, paddingTop: 75 }}
         >
           <div className="pr-9">
             <div
@@ -49,7 +49,10 @@ const WhatCanWeDoSection = () => {
                 >
                   01. Project Simulation
                 </div>
-                <div className="text-whiteColor font-gilroy font-normal pt-3">
+                <div
+                  className="text-whiteColor font-gilroy font-normal pt-3"
+                  style={{ lineHeight: 1.6 }}
+                >
                   You will be given a simulation of working on real projects
                   that we provide and are available with various levels of
                   project difficulty.
@@ -72,7 +75,10 @@ const WhatCanWeDoSection = () => {
                 >
                   02. CV Analyzer
                 </div>
-                <div className="text-whiteColor font-gilroy font-normal pt-3">
+                <div
+                  className="text-whiteColor font-gilroy font-normal pt-3"
+                  style={{ lineHeight: 1.6 }}
+                >
                   Our application is equipped with AI technology to analyze your
                   CV so that you can get a job that suits your CV.
                 </div>
@@ -94,7 +100,10 @@ const WhatCanWeDoSection = () => {
                 >
                   03. AI Interview
                 </div>
-                <div className="text-whiteColor font-gilroy font-normal pt-3">
+                <div
+                  className="text-whiteColor font-gilroy font-normal pt-3"
+                  style={{ lineHeight: 1.6 }}
+                >
                   You'll get a feel for how interviews are conducted. We provide
                   AI interview features that help prepare you for real-world
                   interviews.
